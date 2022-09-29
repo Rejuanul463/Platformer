@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 354186724}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,7 +616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354186719}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.1, y: 1.2, z: -0.84696305}
+  m_LocalPosition: {x: -9, y: -2.1, z: -0.84696305}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 194549323}
@@ -677,6 +677,7 @@ GameObject:
   - component: {fileID: 481592008}
   - component: {fileID: 481592007}
   - component: {fileID: 481592006}
+  - component: {fileID: 481592010}
   m_Layer: 8
   m_Name: lift (2)
   m_TagString: Untagged
@@ -851,6 +852,18 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: 0, y: -0.00000023841858, z: 0}
     m_Extent: {x: 2.0000002, y: 2, z: 0}
+--- !u!114 &481592010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481592004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ee97e9e4c8b2d4da2134f97874490c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &503292889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,7 +1263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815635662}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.1, y: 1.2, z: -10.846963}
+  m_LocalPosition: {x: -9, y: -2.1, z: -10.846963}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -89689,6 +89702,7 @@ GameObject:
   - component: {fileID: 1673542190}
   - component: {fileID: 1673542189}
   - component: {fileID: 1673542188}
+  - component: {fileID: 1673542192}
   m_Layer: 8
   m_Name: lift
   m_TagString: Untagged
@@ -89863,6 +89877,18 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: 0, y: -0.00000023841858, z: 0}
     m_Extent: {x: 2.0000002, y: 2, z: 0}
+--- !u!114 &1673542192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673542186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ee97e9e4c8b2d4da2134f97874490c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1866306026
 GameObject:
   m_ObjectHideFlags: 3
@@ -90010,7 +90036,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945897933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.1, y: 1.2, z: -10.846963}
+  m_LocalPosition: {x: -9, y: -2.1, z: -10.846963}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1866306027}
@@ -90030,6 +90056,7 @@ GameObject:
   - component: {fileID: 2029673092}
   - component: {fileID: 2029673091}
   - component: {fileID: 2029673090}
+  - component: {fileID: 2029673094}
   m_Layer: 8
   m_Name: lift (1)
   m_TagString: Untagged
@@ -90204,6 +90231,18 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: 0, y: -0.00000023841858, z: 0}
     m_Extent: {x: 2.0000002, y: 2, z: 0}
+--- !u!114 &2029673094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029673088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ee97e9e4c8b2d4da2134f97874490c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2037210268
 GameObject:
   m_ObjectHideFlags: 0
