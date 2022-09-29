@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour {
 
     }
     private void FixedUpdate() {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        rb.velocity = new Vector2(horizontal * speed * Time.deltaTime, rb.velocity.y);
     }
     private void flip() {
         if(isFacingRight && horizontal < 0 || !isFacingRight && horizontal > 0){
